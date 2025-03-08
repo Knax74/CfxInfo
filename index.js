@@ -33,6 +33,21 @@ class CfxInfo {
     const data = await this.#fetchData();
     return data?.Data?.vars?.sv_enforceGameBuild ?? "N/A";
   }
+  
+  async GetHostName() {
+    const data = await this.#fetchData();
+    return data?.Data?.hostname ?? "N/A";
+  }
+
+  async GetLanguage() {
+    const data = await this.#fetchData();
+    return data?.Data?.vars?.locale ?? "N/A";
+  }
+
+  async GetMaxPlayers() {
+    const data = await this.#fetchData();
+    return data?.Data?.vars?.sv_maxClients ?? "N/A";
+  }
 }
 
 module.exports = CfxInfo;
