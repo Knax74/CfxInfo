@@ -1,0 +1,22 @@
+{
+  "name": "cfxinfo",
+  "version": "1.0.0",
+  "description": "cfxinfo lib",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Knax74/CfxInfo.git"
+  },
+  "author": "Knax",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Knax74/CfxInfo/issues"
+  },
+  "homepage": "https://github.com/Knax74/CfxInfo#readme",
+  "dependencies": {
+    "axios": "^1.8.2"
+  }
+}
